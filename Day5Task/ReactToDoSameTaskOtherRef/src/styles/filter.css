@@ -1,0 +1,13 @@
+select {
+    padding: 5px;
+    width: max-content
+}
+
+option {
+    text-align: center;
+}
+
+.filter {
+    align-self: flex-end;
+    margin-bottom: 20px;
+}

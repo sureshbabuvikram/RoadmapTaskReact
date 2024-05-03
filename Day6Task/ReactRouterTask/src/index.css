@@ -1,0 +1,40 @@
+@media (min-width:990px){
+    nav #nav{
+        display: none;
+    }
+}
+#navbarSupportedContent li a{
+    border-bottom: 2px solid transparent;
+    color: #494c4f !important;
+}
+.card img{
+    height: 50vh;
+    width: 100% !important;
+}
+nav{
+    box-shadow: 5px 5px 15px #494c4f;
+}
+nav #nav{
+    color: #494c4f !important;
+}
+#navbarSupportedContent li a:hover{
+    border-bottom: 4px solid #0aaa01;
+    cursor: pointer;
+    color: #0aaa01 !important;
+    transition: .3s ease-out;  
+}
+.card .card-body a{
+    color: #0aaa01 !important;
+
+}
+.card{
+    cursor: pointer !important;
+}
+.card .card-body p{
+    color: #494c4f !important
+}
+nav{
+    position:sticky !important;
+    top: 0 !important;
+    z-index: 1 !important;
+}

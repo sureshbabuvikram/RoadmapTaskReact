@@ -1,0 +1,54 @@
+.todo {
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 250px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.todo-complete select {
+    background: green;
+    color: #fff;
+}
+
+.todo-pending select{
+    background: lightcoral;
+    color: #fff;
+}
+
+.todo > span:nth-child(1) {
+    font-size: 1.4em;
+    font-weight: 600;
+}
+
+.todo option {
+    background: #fff;
+    color: #000;
+}
+
+.btns {
+    display: flex;
+    gap: 5px;
+    justify-content: flex-end;
+}
+
+.btns button {
+    color: #fff;
+    font-weight: 600;
+    padding: 10px;
+    width: 100px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1em;
+}
+
+.btns button:nth-child(1) {
+    background: green;
+}
+
+.btns button:nth-child(2) {
+    background: lightcoral;
+}
